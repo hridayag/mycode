@@ -14,8 +14,8 @@ if( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE ) return;
 			'href' => array() // and those anchords can only have href attribute
 		)
 	);	
-	if( isset( $_POST['YOUR_FIELDVALUE']) ){
-	update_post_meta( $post_id, 'YOUR_FIELDVALUE', esc_attr( $_POST['YOUR_FIELDVALUE'] ) );
+	if( isset( $_POST['YOUR_FIELD_NAME']) ){
+	update_post_meta( $post_id, 'YOUR_FIELD_NAME', esc_attr( $_POST['YOUR_FIELD_NAME'] ) );
 		
 	}		
 	
